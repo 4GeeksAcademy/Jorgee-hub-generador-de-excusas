@@ -1,15 +1,35 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+
+body {
     background: white;
     text-align: center;
 }
-header{
+
+header {
     background-color: aliceblue;
 }
-h1{
+
+h1 {
     font-weight: bold;
 }
-body{
-    background-color: antiquewhite;
+
+#imagen {
+    position: relative;
+    display: inline-block;
+}
+
+.textoDeImagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    font-size: 30px;
+    
+}
+
+button {
+    background-color: aliceblue;
 }
