@@ -2,4 +2,14 @@
 
 body{
     background: white;
+    text-align: center;
+}
+header{
+    background-color: aliceblue;
+}
+h1{
+    font-weight: bold;
+}
+body{
+    background-color: antiquewhite;
 }
